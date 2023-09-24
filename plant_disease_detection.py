@@ -8,8 +8,8 @@ Original file is located at
 """
 
 import os
-os.environ['KAGGLE_USERNAME']="mqasimali"
-os.environ['KAGGLE_KEY']="35b81b58f6c98a3639766439333de844"
+os.environ['KAGGLE_USERNAME']="KAGGLE_USERNAME"
+os.environ['KAGGLE_KEY']="KAGGLE_key"
 !kaggle datasets download abdallahalidev/plantvillage-dataset
 
 !unzip plantvillage-dataset.zip
